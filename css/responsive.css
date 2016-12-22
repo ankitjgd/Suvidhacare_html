@@ -1,0 +1,361 @@
+ @media (min-width: 992px) and (max-width: 1199px) {
+ .nav > li > a {
+margin:12px 23px 12px 0;
+font-size:14px!important;
+}
+.nav.navbar-nav a {
+font-size:15px;
+}
+ul#header-btns li {
+font-size:20px;
+}
+ul#header-btns li span {
+font-size:14px;
+}
+ .tagline {
+margin:40px 0;
+}
+.cat-last {
+margin-bottom:21px!important
+}
+ .get-quote form textarea {
+height:86px;
+}
+ ul.cat-list li a {
+width:158px;
+}
+ .home-blog-wrap {
+width:100%
+}
+ .carousel-indicators {
+bottom:0;
+font-size:28px;
+}
+.carousel-control {
+top:43%;
+}
+.carousel.slide {
+padding:40px 0;
+}
+.carousel-indicators {
+bottom:20px;
+}
+.search-group-1 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-2 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-3 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-4 {
+width:100%;
+float:left;
+}
+.search-bar .dropdown-menu {
+width:100%;
+}
+ul.account-thumb-list li a.last {margin-right:24px!important;}
+
+.ih-item.square {margin-bottom:30px;}
+.treatment-thumb {margin-bottom:30px;}
+ul.process-list li {margin-bottom:10px;}
+#hospital-panel ul li {width:119px;}
+#hospital-panel ul li {width:169px;}
+#save-section h2 {font-size:17px}
+ul.process-list li a {
+	width:93px;
+	height:93px;
+}
+
+ul.process-list li span  {
+	width:93px;
+}
+
+ul.process-list li {margin-bottom:0;}
+ul.process-list li.p-arrow {margin-top:32px;}
+
+}
+ @media (min-width:768px) and (max-width:991px) {
+.navbar-toggle {
+margin-top:7px;
+}
+ .top-menu .top-notify {
+margin-right:20px;
+}
+.top-menu .shop-cart {
+float:left;
+}
+.navbar {
+margin-top:15px;
+}
+.nav.navbar-nav a {
+font-size:15px;
+}
+ul#header-btns li a {
+width:50%;
+ border-bottom:1px solid #dddddd;
+}
+ .tagline {
+margin:40px 0;
+}
+.cat-last {
+margin-bottom:21px!important
+}
+ .get-quote img {
+display:none;
+}
+ ul.cat-list li a {
+width:157px;
+}
+ .home-blog-wrap {
+width:100%;
+}
+.search-result .col-lg-3.pl-none {
+padding-left:15px!important
+}
+#topbar {
+padding-bottom:20px;
+}
+.inner-search-wrap {
+margin-top:40px;
+}
+.shop-cart {
+float:right;
+}
+ .carousel-indicators {
+bottom:0;
+font-size:28px;
+}
+.carousel.slide {
+padding:40px 0;
+}
+.carousel-indicators {
+bottom:20px;
+}
+
+.account-left-panel {margin-bottom:40px;}
+ul.account-thumb-list li a.last {margin-right:24px!important;}
+.profile-pic {width:135px; height:135px;}
+.ih-item.square {margin-bottom:30px;}
+.treatment-thumb {margin-bottom:30px;}
+ul.process-list li {margin-bottom:10px;}
+#hospital-panel ul li {width:119px;}
+#save-section h2 {margin-top:0;}
+ul.account-top-links li {font-size:11px; margin:0 20px 20px 0}
+
+}
+ @media (max-width:736px) {
+ .nav.navbar-nav a {
+font-size:15px;
+}
+ul#header-btns li a {
+width:50%;
+border-right:1px solid #dddddd;
+border-bottom:1px solid #dddddd;
+}
+.search-group-1 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-2 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-3 {
+width:100%;
+float:left;
+margin-bottom:10px;
+}
+.search-group-4 {
+width:100%;
+float:left;
+}
+.search-group-5 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+.search-group-6 {
+width:100%;
+float:left;
+margin-bottom:10px;
+border-right:1px solid #cccccc;
+}
+ .cat-last {
+margin-bottom:21px!important
+}
+ .get-quote img {
+ display:none;
+}
+ ul.cat-list li a {
+width:171px;
+}
+ ul.cat-list .mr-none {
+margin-right:20.9px!important;
+}
+ .sc-login {
+text-align:center
+}
+.sc_forgotPwd {
+text-align:center
+}
+ .login-ttl {
+ font-size: 28px;
+ margin: 0 0 28px;
+}
+ .or-separator::before {
+top:38%;
+}
+.or-separator::after {
+top:38%;
+}
+.or-separator1::before {
+top:91%!important;
+}
+.or-separator1::after {
+top:91%!important;
+}
+#topbar {
+padding-bottom:20px;
+}
+.search-result .col-lg-3.pl-none {
+padding-left:15px!important
+}
+.tagline h1 {
+font-size:26px;
+}
+ .search-bar .dropdown-menu {
+width:100%;
+}
+.second-navbar .nav > li > a {
+margin:0 10px;
+}
+.second-navbar .nav > li > a:hover {
+margin:0 10px;
+}
+ .second-navbar .nav > li {
+margin-top:5px;
+}
+.second-navbar .navbar-default .navbar-nav > .open > a {color:#3d9fe2!important}
+.second-navbar .navbar-default .navbar-nav > .open > a:focus  {color:#3d9fe2!important}
+.second-navbar .navbar-default .navbar-nav > .open > a:hover {color:#3d9fe2!important}
+.second-navbar .navbar-default .navbar-nav .dropdown a:focus {color:#3d9fe2!important}
+.second-navbar .navbar-default .navbar-nav .dropdown a {color:#ffffff!important}
+
+.navbar-default .navbar-nav > li > a:hover  {color:#55aa1f!important}
+.navbar-default .navbar-nav > li > a:focus {color:#777777!important}
+ul.process-list li {float:left; width:100%;}
+.p-arrow {display:none;}
+.account-left-panel {margin-bottom:40px;}
+
+ul.account-top-links li {margin-left:0; margin-bottom:10px; margin-right:20px;}
+ul.account-top-links {margin-bottom:30px;}
+ul.process-list li a {width:100%;}
+ul.process-list li span {width:100%;}
+ul.process-list li {margin-bottom:20px;}
+.treatment-thumb {margin-bottom:20px;}
+.ih-item.square {margin-bottom:20px;}
+#hospital-panel ul li {width:100%; margin-bottom:20px; text-align:center}
+#sc-info h4 {margin-top:20px!important;}
+#sc-info img {margin-top:22px;}
+
+
+}
+ @media (max-width:480px) {
+ ul#header-btns li a {
+width:100%;
+border-right:0;
+}
+ul.cat-list li a {
+width:100%;
+}
+ul.cat-list li {
+margin:0;
+width:100%;
+padding:0;
+list-style-type:none;
+display:inline-table;
+clear:both;
+}
+ .tagline h1 {
+font-size:23px;
+}
+.carousel.slide {
+padding:40px 0;
+}
+.carousel-indicators {
+bottom:0;
+}
+.search-bar input {
+border-right:1px solid #cccccc;
+}
+.search-bar .dropdown-menu {
+width:100%;
+}
+.wrap ul.wrap-nav li {
+width:80%;
+}
+.top-menu .top-info-btn {
+float:none;
+}
+#order-medicine .fa.fa-whatsapp {
+font-size:22px
+}
+#order-medicine .contact-box {
+padding-left:10px;
+}
+#order-medicine .contact-box span {
+font-size:13px;
+width:100%;
+text-align:center;
+margin-left:0;
+float:none;
+min-height:20px;
+line-height:20px;
+}
+#order-medicine .contact-box {
+min-height:20px;
+line-height:20px;
+text-align:center;
+padding:10px 10px;
+}
+#order-medicine .fa.fa-whatsapp {
+text-align:center;
+float:none;
+width:100%;
+}
+}
+ @media (max-width:360px) {
+ .tagline h1 {
+font-size:23px;
+}
+ .search-bar .dropdown-menu {
+width:100%;
+}
+ .top-menu .top-info-btn {
+float:none;
+}
+#hover-cap-4col .thumbnail {width:100%; }
+
+}
+ @media (max-width:320px) {
+ .top-menu .top-info-btn {
+float:none;
+}
+}
