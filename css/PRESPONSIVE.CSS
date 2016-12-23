@@ -1,0 +1,78 @@
+
+ @media (min-width:768px) and (max-width:991px) {
+
+.confirmed-image-text{
+text-align: center;
+}
+
+}
+ @media (max-width:736px) {
+
+.appt-text2{
+  text-align: center;
+}
+.confirmed-image-text{
+text-align: center;
+}
+.login-cancel-row2{
+  border-bottom: 2px solid gray;
+  padding: 10px;
+  font-size: 19px;
+ border-right: 2px solid gray;
+ text-align: center;
+}
+.login-cancel-row21{
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  font-size: 15px;
+ border-right: 2px solid gray;
+ text-align: center;
+}
+.login-cancel-row3{
+  padding: 10px;
+  font-size: 19px;
+ border-right: 2px solid gray;
+ text-align: center;
+}
+.cancel-book-again{
+  text-align: center;
+}
+
+}
+ @media (max-width:480px) {
+
+.confirmed-image-text{
+text-align: center;
+}
+.login-cancel-row2{
+  border-bottom: 2px solid gray;
+  padding: 10px;
+  font-size: 19px;
+ border-right: 2px solid gray;
+ text-align: center;
+}
+.login-cancel-row3{
+  padding: 10px;
+  font-size: 19px;
+ border-right: 2px solid gray;
+ text-align: center;
+}
+.cancel-book-again{
+  text-align: center;
+}
+
+}
+ @media (max-width:360px) {
+
+.confirmed-image-text{
+text-align: center;
+}
+
+}
+ @media (max-width:320px) {
+ .top-menu .top-info-btn {
+float:none;
+}
+
+
+}
