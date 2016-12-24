@@ -81,15 +81,10 @@ clear:both
 
 .login-signup-wrapper .input-group {
 	margin-bottom:15px;
-
 }
-
 .login-signup-form input {
 	height:38px;
 	border-radius:0;
-}
-.login-signup-form .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
-border-radius:0;
 }
 .login-signup-form .help-block {
 	color:red;
@@ -97,25 +92,6 @@ border-radius:0;
 .login-signup-form .btn-lg, .btn-group-lg > .btn {
 	border-radius:0;
 }
-.login-signup-form .btn-primary {
-	background-color:#3d9fe2;
-	border:0;
-	border-radius:4px;
-}
-.login-signup-form .btn-primary:hover {
-	background-color:#55aa1f;
-}
-.sc_forgotPwd {
-}
-.login-signup-form .remember-me {
-	line-height:10px;
-}
-.login-signup-form .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
-	margin-left:0;
-	margin-top:-7px;
-}
-
-
 .app-form{
 align:right;
 }
@@ -148,13 +124,10 @@ margin-top:50px;
 .app-logo{
   position: absolute;
   right:0;
-
 }
 .appt-text2{
   text-align: left;
 }
-
-
 /*=========================
 login confirmed page
  ================= */
@@ -192,8 +165,7 @@ margin-top:80px;
    padding-left: 5px;
    font-size: 18px;
    border-radius: 5px 5px 0px 0px;
-   position: absolute;
-   left: 0;
+margin-left: -15px;
  }
  .my-appoints{
    border-top:1px solid gray;
@@ -202,7 +174,9 @@ margin-top:80px;
    padding-left: 5px;
   border-radius: 5px 5px 0px 0px;
  }
-
+.login-cancel-date{
+  margin-top: 5px;
+}
 
  .login-cancel-row1{
    border-bottom: 1px solid gray;
@@ -245,6 +219,7 @@ margin-top:80px;
   text-align: center;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
+  margin-top: 5px;
 
  }
  .login-cancel-image{
