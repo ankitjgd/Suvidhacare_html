@@ -163,10 +163,12 @@ login confirmed page
   padding-left: 20px;
 }
 .confirmed-login-box{
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .confirmed-image-text{
 text-align: left;
+margin-top: 10px;
+font-size: 18px;
 }
 .date-time-row2{
 border-top: 2px solid green;
@@ -181,20 +183,26 @@ margin-top:80px;
   background-color:	#FFFFF;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 10px;
-	border-left: 1px solid gray;
-	border-bottom: 1px solid gray;
+
  }
- .login-upcoming{
- 	border-top: 1px solid black;
- 	border-right: 1px solid black;
- 	border-left: 1px solid black;
- 	font-size: 17px;
-	border-radius: 5px 5px 0px 0px;
-	padding: 10px;
+ .current-upcomings{
+   border-top:1px solid gray;
+   border-left:1px solid gray;
+   border-right:1px solid gray;
+   padding-left: 5px;
+   font-size: 18px;
+   border-radius: 5px 5px 0px 0px;
+   position: absolute;
+   left: 0;
  }
- .login-upcoming-col{
-	 padding-top: 0px;
+ .my-appoints{
+   border-top:1px solid gray;
+   border-right:1px solid gray;
+   font-size: 18px;
+   padding-left: 5px;
+  border-radius: 5px 5px 0px 0px;
  }
+
 
  .login-cancel-row1{
    border-bottom: 1px solid gray;
@@ -202,22 +210,27 @@ margin-top:80px;
    padding: 15px;
    font-size: 17px;
 	 font-family: 'Open Sans', sans-serif;
+   border-left: 1px solid gray;
+  border-right: 1px solid gray;
  }
 
  .login-cancel-row2{
-   border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
    padding: 15px;
    font-size: 17px;
-   border-right: 1px solid gray;
 	font-family: 'Open Sans', sans-serif;
+  border-left: 1px solid gray;
+ border-right: 1px solid gray;
+ border-bottom: 1px solid gray;
  }
  .login-cancel-row21{
-  border-bottom: 1px solid gray;
+
 	border-top: 1px solid gray;
   padding: 15px;
   font-size: 17px;
-  border-right: 1px solid gray;
 	font-family: 'Open Sans', sans-serif;
+  border-left: 1px solid gray;
+ border-right: 1px solid gray;
 
  }
  .login-cancel-row3{
@@ -225,6 +238,8 @@ margin-top:80px;
    font-size: 17px;
   border-right: 1px solid gray;
 	font-family: 'Open Sans', sans-serif;
+  border-left: 1px solid gray;
+ border-right: 1px solid gray;
  }
  .cancel-book-again{
   text-align: center;
