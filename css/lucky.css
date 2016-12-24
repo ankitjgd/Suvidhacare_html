@@ -1,4 +1,4 @@
-
+/*
 .about
 {
 	background:#F6F6F6;
@@ -90,9 +90,17 @@ span.head
 	padding:10px;	
 }
 
-/* End here */
+ End here */
 
-/* Blog1 
+/* Blog1 */
+
+.inn
+{
+	font-size: 30px;
+    color: #3d9fe2;
+    margin-bottom: 10px;
+	margin-top:20px;	
+}
 
 .about img
 {
@@ -139,7 +147,7 @@ span.post
 }
 
 
- End Here */
+/* End Here */
 
 .breadcrumb.text-uppercase a
 {
@@ -179,7 +187,7 @@ span.post
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background-color:#312A25 !Important;
+    background-color:#3D9FE2 !Important;
    
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -222,13 +230,28 @@ span.post
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #fff;
+}
+
+.sidebar-nav li:hover
+{
+	background-color:#FFF;
+	color:#000;	
+}
+
+.sidebar-nav li:first-child:hover
+{
+	background-color:#3D9FE2;	
+}
+
+.sidebar-nav li:hover
+{
+	background-color:#3D9FE2;	
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
-    background: #312A25;
+    color: #000;
 }
 
 .sidebar-nav li a:active,
@@ -367,14 +390,9 @@ span.post
 
 .breadcrumb.space
 {
-	width:484px;
+	width:510px;
 	background-color:#3D9FE2;
 	color:#FFF;	
-}
-
-.breadcrumb.space ul li a:hover
-{
-	color:#55aa1f;
 }
 
 .main
@@ -477,4 +495,29 @@ span.not
 .u-t-default
 {
 	text-align:center;	
+}
+
+ul.space
+{
+	list-style-type:none;	
+	color:#FFF;
+}
+
+ul.space li
+{
+	
+}
+
+ul.space li a
+{
+	display:block;
+	padding:10px;
+	color:#fff;
+	background-color:#3D9FE2;
+}
+
+ul.space li a:hover
+{
+	background-color:#000;
+	color:#fff;	
 }
