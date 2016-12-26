@@ -245,5 +245,42 @@ margin-top:80px;
   border-right:1px solid gray;
   border-left:1px solid gray;
   border-bottom:1px solid #fff;
-font-weight: bold;
+  font-weight: bold;
+}
+
+
+/*=========================
+  Reschedule appointment
+ ================= */
+.re-main-container{
+  margin-top: 50px;
+
+}
+.re-main-row{
+  margin-top: 50px;
+  padding: 20px 0px 20px 0px;
+
+}
+.re-row2{
+  font-size: 25px;
+  padding: 10px;
+}
+.re-row3{
+  font-size: 30px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.re-row4{
+  font-size: 17px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.re-row5{
+  font-size: 17px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
 }
