@@ -64,13 +64,13 @@ text-align: center;
   border-top:1px solid gray;
   border-left:1px solid gray;
   border-right:1px solid gray;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 36px;
+  padding-right: 34px;
   font-size: 18px;
   border-radius: 5px 5px 0px 0px;
   position: absolute;
   left: 10px;
-  margin-left: -1px;
+  margin-left: 0px;
 }
 .my-appoints{
   border-top:1px solid gray;
