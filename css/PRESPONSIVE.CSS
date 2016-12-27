@@ -37,8 +37,42 @@ text-align: center;
 .cancel-book-again{
   text-align: center;
 }
+/*----reschedule page----*/
+
+.re-row2{
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+.re-row3{
+  font-size: 30px;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+.re-row4{
+  font-size: 17px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+.re-row5{
+  font-size: 15px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: #EFEFEF;
+  padding: 5px;
+  text-align: center;
+}
 
 }
+
  @media (max-width:480px) {
 
 .confirmed-image-text{
@@ -81,6 +115,40 @@ text-align: center;
   border-radius: 5px 5px 0px 0px;
   position: absolute;
   left: 10px;
+}
+/*----reschedule page----*/
+
+.re-row2{
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+.re-row3{
+  font-size: 30px;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: #EFEFEF;
+  text-align: center;
+  text-align: center;
+}
+.re-row4{
+  font-size: 17px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #EFEFEF;
+  text-align: center;
+}
+.re-row5{
+  font-size: 15px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: #EFEFEF;
+  padding: 5px;
+  text-align: center;
 }
 
 }
