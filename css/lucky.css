@@ -497,27 +497,255 @@ span.not
 	text-align:center;	
 }
 
-ul.space
-{
-	list-style-type:none;	
-	color:#FFF;
+
+ul.space {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius:4px;
 }
 
-ul.space li
+.space li {
+    float: left;
+	background-color: #3D9FE2;
+}
+
+.space li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.space li a:hover:not(.active) {
+    background-color: #fff;
+	color:#3D9FE2;
+}
+
+.space li a.active 
 {
+    background-color: #3D9FE2;
+}
+
+.nav-color
+{
+	color:#FFF;
+    border: none;
+	border-bottom:2px solid #55AA1F;
+	margin-bottom:30px;
+}
+
+.navbar-nav > li > .dropdown-menu.radi
+{
+	border-radius:0px;	
+	background-color:#3D9FE2;
+	color:#FFF;
+	border:none;
+}
+
+.navbar-nav > li > .dropdown-menu.radi p
+{
+	color:#FFF;	
+}
+
+.navbar-nav > li > .dropdown-menu.radi a
+{
+	color:#FFF!important;	
+}
+
+
+.navbar-nav > li > .dropdown-menu.radi li:hover:first-child
+{
+	background-color:inherit;	
+}
+
+.navbar-nav > li > .dropdown-menu.radi li:hover
+{
+	background-color:#fff;	
+	color:#F00;
+
+}
+
+.navbar-nav > li > .dropdown-menu.radi a:hover
+{
+	color:#3D9FE2!important;
+}
+
+.bacc
+{
+	width:100%;
+	margin-top:20px;
+	background-color:#F00 !important;
+	display:block;	
+	padding:10px 10px;
+}
+
+
+.back
+{
+	float:left;	
+	background-color:#0F0;
+	width:50%;
+	height:200px;
+}
+
+.back-1
+{
+	float:right;
+	width:50%;	
+	background-color:#09C;
+	height:200px;
+}
+
+.margin-t
+{
+	margin-top:30px;
+	padding:0px;
+
+}
+
+ul.margin
+{
+	padding:0px;
+	margin:0px;
+}
+
+ul.margin li
+{
+	display:inline-block;
+	margin:0px;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+ul.margin li a.icon
+{
+	background-image:url(../images/cat-icon1.png);
+	background-position:center 25%;
+    background-repeat: no-repeat;
+}
+
+ul.margin li a
+{
+	padding: 0;
+    color: #555555;
+    border: 1px solid #dddddd;
+    display: block;
+    width: 185px;
+	margin:0 20.9px 21px 0;
+    height: 158px;	
+}
+
+ul.margin li a span {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 105px 0 0 0;
+}
+
+ul.margin li a:hover
+{
+	background-color:#CCC;
+	color:#3D9FE2;	
+}
+
+/*******************/
+.topp
+{
+	margin-top:20px;	
 	
 }
 
-ul.space li a
+ul.doc
 {
-	display:block;
-	padding:10px;
-	color:#fff;
-	background-color:#3D9FE2;
+	border-bottom:none;
 }
 
-ul.space li a:hover
+.topp .nav > li > a
 {
-	background-color:#000;
-	color:#fff;	
+	margin:0px;
+	padding:12px;
+	margin-right:0px;	
+	text-align:center;
+}
+
+ul.doc li a
+{
+	font-size:18px;
+}
+
+ul.doc li a span.docc
+{
+	font-size:14px;
+	text-align:center;	
+}
+
+
+ul.doc > li.active > a, ul.doc > li.active > a:hover, ul.doc > li.active > a:focus
+{
+	 background: #31B0D5 none repeat scroll 0 0;
+	border:1px solid #31B0D5;
+	border-bottom:none;
+    color: #FFF;
+}
+
+.app
+{
+	width:50%;
+	border:1px solid #4FB8FF;
+	padding:10px;
+}
+
+
+.app1
+{
+	width:50%;
+	
+	border:1px solid #4FB8FF;
+	padding:10px;
+}
+
+.view
+{
+	line-height:25px;	
+}
+
+.view .bt
+{
+	margin-bottom:10px;	
+}
+
+.txt .texxt
+{
+	font-size:18px;	
+	color:#31B0D5;
+}
+
+.txt .texxt:hover
+{
+	color:#A3C864;	
+}
+
+.txt .texxtt
+{
+	font-size:16px;	
+}
+
+.pull-left.ap
+{
+	margin-top:14px;
+	color:#000;	
+}
+
+.appp
+{
+	width:100%;	
+}
+
+
+
+.app1.pull-right
+{
+	min-height:142px;	
 }
