@@ -53,7 +53,6 @@ text-align: center;
 }
 .re-row4{
   font-size: 17px;
-  border-left: 1px solid gray;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   padding: 10px;
@@ -63,12 +62,15 @@ text-align: center;
 }
 .re-row5{
   font-size: 15px;
-  border-left: 1px solid gray;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   background-color: #EFEFEF;
   padding: 5px;
   text-align: center;
+}
+.re-row5 span{
+  padding: 4px 6px 4px 2px;
+  margin-top: 5px;
 }
 
 }
@@ -143,26 +145,48 @@ text-align: center;
 }
 .re-row5{
   font-size: 15px;
-  border-left: 1px solid gray;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
   background-color: #EFEFEF;
   padding: 5px;
   text-align: center;
 }
+.re-row5 span{
+  padding: 4px 6px 4px 2px;
+}
+/*-----My Profile--------*/
 
 }
- @media (max-width:360px) {
+
+@media (max-width:360px) {
 
 .confirmed-image-text{
 text-align: center;
 }
+.re-row5 span{
+  padding: 4px 3px 4px 2px;
+}
+.re-row5 a span:hover{
+  color:black;
+  padding: 1px;
+  border-radius: 1px;
+  border: 1px solid green;
+}
+
 
 }
+
  @media (max-width:320px) {
  .top-menu .top-info-btn {
 float:none;
 }
-
+.re-row5 span{
+  padding: 4px 6px 4px 2px;
+  margin-top: 15px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow:1px 1px 1px 0px gray;
+  opacity:0.8;
+}
 
 }
