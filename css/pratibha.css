@@ -390,12 +390,11 @@ a{
  =================*/
  .p-save-contain {
  	background-color:#fff;
-  padding: 20px 40px 20px 40px;
+  padding: 30px 40px 10px 40px;
  }
  .p-save-contain-row{
  	background-color:#E8E8E8;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px 0px 0px 0px;
  }
  .p-save-contain a {
  	color:#666666
