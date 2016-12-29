@@ -749,3 +749,294 @@ ul.doc > li.active > a, ul.doc > li.active > a:hover, ul.doc > li.active > a:foc
 {
 	min-height:142px;	
 }
+
+strong.ticles
+{
+	margin-right:10px;	
+}
+
+.acti > li a.active
+{
+	color:#000;	
+	font-weight:bold;
+}
+
+.card .breadcrumb
+{
+	background-color:#3D9FE2;
+}
+
+.acti > li a
+{
+	color:#fff;	
+	
+}
+
+.doctor-profile h3
+{
+	margin-bottom:10px;		
+	font-size:24px;
+}
+
+
+.doctor-profile p
+{
+	font-size:18px;
+	font-weight:400;		
+}
+
+.doctor-pic .doc-a
+{
+	font-size:16px;
+	color:#3D9FE2;	
+}
+
+.doctor-pic .doc-b p
+{
+	line-height:15px;
+}
+
+.doctor-pic > img
+{
+	max-width:100%;
+}
+
+.doctor-right table
+{
+	width:100%;
+	margin-top:10px;
+}
+.doctor-right
+{
+  margin-bottom:15px;
+  border:1px solid #3D9FE2;
+  padding:10px;
+  border-radius:4px;
+}
+
+.doctor-right p
+{
+	font-size:14px;
+	margin-top:8px;
+	text-align:justify;
+}
+
+.book
+{
+	border:1px solid #3D9FE2;
+	margin-bottom:10px;
+	margin-top:10px;
+
+		
+}
+
+.doctor-border
+{
+	border:2px solid #3D9FE2;
+	padding:10px;
+    min-height:654px;
+	border-radius:4px;
+}
+
+.doctor-info
+{
+	margin-top:15px;	
+}
+
+.doctor-info .nav > li > a
+{
+	margin:0px;
+	padding:12px;
+	margin-right:0px;	
+	text-align:center;
+}
+
+ul.popular-list li
+{
+	margin-bottom:15px;
+}
+
+ul.popular-list li:last-child
+{
+	margin-bottom:0px;
+}
+
+p.info-panel
+{
+	padding:10px;
+	text-align:justify;
+}
+
+.doctor-info .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+	background-color:#31B0D5;
+	color:#FFF;
+}
+
+.doctor-profile-name h2 
+{
+	color:#31B0D5;
+}
+
+.search-bar-top
+{
+	margin-top:10px;
+}
+
+
+.doctor-edit-border
+{
+	border:1px solid #31B0D5;
+	padding:8px;
+}
+
+/* Doctor Edit Profile */
+
+.doctor-edit-border-right
+{
+	border:1px solid #31B0D5;
+	padding:8px;
+	min-height:342px;
+}
+
+
+.doctor-edit-border-right.report .nav > li > a
+{
+	margin:0px;
+	padding:12px;
+	margin-right:0px;	
+	text-align:center;
+}
+
+.faq
+{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.faq h1.fac
+{
+   color: #4FB8FF;
+   margin: 0 0 14px;
+   padding: 0;
+   font-size:24px;
+   text-transform: uppercase;	
+}
+
+
+.faq h2 {
+    color: #3d9fe2;
+    font-size: 20px;
+    margin: 5px 0px 15px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.faq ul li
+{
+	text-transform:capitalize;
+	font-size:15px;	
+	margin-bottom:12px;
+}
+
+.faq .faq-list
+{
+	list-style:none;	
+	padding-left:0px;
+}
+
+@media (max-width: 480px) { 
+
+	.blog h1
+	{
+		font-size:18px !important;	
+	}
+	
+	.card
+	{
+		margin-top:10px;	
+	}
+	
+	.breadcrumb.text-uppercase.acti > li
+	{
+		margin-bottom:10px;	
+	}
+	
+	.res img
+	{
+		margin-bottom:10px;
+	}
+	
+	.treatment-group.res
+	{
+		margin-bottom:0px;
+	}
+	
+	.pagination-lg > li > a, .pagination-lg > li > span
+	{
+		padding:10px;	
+	}
+	
+	#sectioc-top #save-section
+	{
+		margin-top:0px;	
+		padding:16px;
+		
+	}
+	
+	#sectioc-top #save-section h2
+	{
+		font-size:16px;
+	}
+	
+	.butt
+	{
+		text-align:center;	
+	}
+	
+	#save-section .btn-default
+	{
+		background: #ff7e00 none repeat scroll 0 0;
+		border: 0 none;
+		border-radius: 6px;
+		margin-top:10px;
+		color: #ffffff;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 6px 20px;
+		text-transform: uppercase;
+	}
+}
+
+
+@media (max-width: 980px) { 
+	.butt.size
+	{
+		text-align:center;
+			
+	}
+	
+	#save-section .btn-default
+	{
+		margin-top:10px;	
+	}
+	
+	.card
+	{
+		margin-top:10px;	
+	}
+	
+}
+
+
+@media (max-width: 768px) {
+	
+	
+	#save-section h2
+	{
+		font-size:17px;
+	}
+	
+	
+}
+
