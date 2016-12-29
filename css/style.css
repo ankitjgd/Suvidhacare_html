@@ -283,7 +283,7 @@ Topbar
 }
 /*=========================
   Nav Bar
- ================= */ 
+ ================= */
 .nav.navbar-nav a {
 	font-size:14px;
 	color:#999;
@@ -329,7 +329,7 @@ Topbar
 }
 /*=========================
   Search Bar
- ================= */ 
+ ================= */
 .search-bar .glyphicon.glyphicon-search {
 	font-size:20px;
 }
@@ -1266,7 +1266,7 @@ border-radius:0;
 }
 /*=========================
   Doctor Search
- ================= */ 
+ ================= */
 
 .filter-list label {
 	font-weight:normal;
@@ -1388,7 +1388,7 @@ hr {
 }
 /*=========================
   Page Scroller
- ================= */ 
+ ================= */
 
 .scroll-top-wrapper {
 	position: fixed;
@@ -1425,7 +1425,7 @@ hr {
 }
 /*=========================
   Doctor Page
- ================= */ 
+ ================= */
 
 #doctor-cat-section .btn.icon-1 {
 	background-image:url(../images/doctor_icon1.png);
@@ -1495,8 +1495,8 @@ hr {
 }
 /*=========================
   Modal
- ================= */ 
- 
+ ================= */
+
  .modal-dialog {
 	margin-top:50px;
 }
@@ -1555,8 +1555,8 @@ hr {
 }
 /*=========================
   Social Page Left
- ================= */ 
- 
+ ================= */
+
 .social-align {
 	left:0px;
 	border-radius:0;
@@ -2262,7 +2262,7 @@ ul.process-list li a.p-icon7 {
 	background:#3d9fe2;
 	height: 100%;
 	margin-top:50px;
-	padding:30px 0
+	padding:30px 0;
 }
 #save-section h2 {
 	font-size:21px;

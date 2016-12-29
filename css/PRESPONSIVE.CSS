@@ -72,6 +72,15 @@ text-align: center;
   padding: 4px 6px 4px 2px;
   margin-top: 5px;
 }
+.my-pro-row-col2{
+  padding: 5px 0px 0px 0px;
+  font-size: 17px;
+}
+.my-pro-row-col2 i{
+  padding: 0px 0px 0px 10px;
+  font-size: 30px;
+  color: #4FB8FF;
+}
 
 }
 
@@ -155,7 +164,18 @@ text-align: center;
   padding: 4px 6px 4px 2px;
 }
 /*-----My Profile--------*/
-
+.my-pro-row-col2{
+  padding: 5px 0px 5px 0px;
+  font-size: 17px;
+}
+.my-pro-row1{
+  font-size: 30px;
+  text-align: center;
+}
+.my-pro-row1 .edit-profile-btn {
+    margin-right: 40px;
+    padding: 10px 30px 10px 30px;
+}
 }
 
 @media (max-width:360px) {
@@ -171,6 +191,11 @@ text-align: center;
   padding: 1px;
   border-radius: 1px;
   border: 1px solid green;
+
+}
+.my-pro-row-col2{
+  padding: 15px 0px 5px 10px;
+  font-size: 17px;
 }
 
 
