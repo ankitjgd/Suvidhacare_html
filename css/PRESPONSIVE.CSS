@@ -85,7 +85,10 @@ text-align: center;
 }
 
  @media (max-width:480px) {
-
+.p-save-contain-row{
+    background-color:#fff;
+    padding: 10px 0px 0px 0px;
+   }
 .confirmed-image-text{
 text-align: center;
 }
@@ -177,6 +180,7 @@ text-align: center;
     padding: 10px 30px 10px 30px;
 }
 }
+
 
 @media (max-width:360px) {
 
