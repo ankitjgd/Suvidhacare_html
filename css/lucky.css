@@ -796,15 +796,15 @@ strong.ticles
 	line-height:15px;
 }
 
-.doctor-pic > img
-{
-	max-width:100%;
-}
-
-.doctor-right table
+/*.full-img-width > img
 {
 	width:100%;
-	margin-top:10px;
+}
+*/
+.doctor-right img
+{
+	max-width:100%;
+	width:100%;	
 }
 .doctor-right
 {
@@ -834,7 +834,7 @@ strong.ticles
 {
 	border:2px solid #3D9FE2;
 	padding:10px;
-    min-height:654px;
+    min-height:604px;
 	border-radius:4px;
 }
 
@@ -960,6 +960,8 @@ h1.fac
 {
 	margin-top:25px;	
 }
+
+
 
 /******************************/
 .record
@@ -1101,6 +1103,12 @@ ul.record-inline .pull-left, .pull-right
 	{
 		font-size:17px;
 	}
+	
+	.book-center
+	{
+		margin:0 auto;
+		width:50%;	
+	}
 }
 
 
@@ -1167,6 +1175,15 @@ ul.record-inline .pull-left, .pull-right
 		padding: 6px 20px;
 		text-transform: uppercase;
 	}
+	
+	.doc-b
+	{
+		margin-top:10px;	
+	}
+	.doctor-pic .doc-b p
+	{
+		line-height:20px;	
+	}
 }
 
 
@@ -1192,6 +1209,22 @@ ul.record-inline .pull-left, .pull-right
 		width:31%;	
 	}
 	
+	.doctor-pic .doc-b p
+	{
+		line-height:15px;	
+	}
+	
+	.book-center
+	{
+		margin:0 auto;
+		width:50%;
+		margin-top:10px;	
+	}
+	.book-center h3
+	{
+		text-align:center;
+	}
+	
 }
 
 @media (max-width: 800px)
@@ -1199,6 +1232,18 @@ ul.record-inline .pull-left, .pull-right
 	ul.record-inline li
 	{
 		width:47%;	
+	}
+	
+	.book-center
+	{
+		margin:0 auto;
+		width:60%;
+		max-width:100%;
+		margin-top:10px;	
+	}
+	.book-center h3
+	{
+		text-align:center;
 	}
 }
 
@@ -1209,6 +1254,18 @@ ul.record-inline .pull-left, .pull-right
 	ul.record-inline li
 	{
 		width:95%;	
+	}
+	
+	.book-center
+	{
+		margin:0 auto;
+		width:100%;	
+		margin-top:10px;
+	}
+	
+	.book-center h3
+	{
+		text-align:center;
 	}
 }
 
