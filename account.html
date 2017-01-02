@@ -13,7 +13,6 @@
 <link href="css/flag-icon.min.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-<link href="css/blue.css" rel="stylesheet">
 <link href="css/pratibha.css" rel="stylesheet">
 <link href="css/PRESPONSIVE.CSS" rel="stylesheet">
 <link href="css/ihover.min.css" rel="stylesheet">
@@ -611,7 +610,7 @@
                      <h5>Anesthesiologist</h5>
                       <p>Description goes here
                       </p>
-                    <figcaption>
+                   <figcaption>
                       <button class="btn figbutton">ADD</button>
                    </figcaption>
                </figure>
@@ -768,9 +767,9 @@
                   <figcaption>
                     <button class="btn figbutton">ADD</button>
                   </figcaption>
-              </figure>
-            </li>
-          </ul>
+               </figure>
+             </li>
+           </ul>
         </div>
         </div>
      </div>
@@ -921,5 +920,13 @@ $(document).ready(function(){
 
 });
 </script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+        $(".figbutton").click(function(e){
+				$(this).html("<i class='fa fa-check'></i>");
+			});
+    });
+</script>
+
 </body>
 </html>
