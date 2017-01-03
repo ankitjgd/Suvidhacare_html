@@ -684,10 +684,20 @@ ul.doc li a span.docc
 
 ul.doc > li.active > a, ul.doc > li.active > a:hover, ul.doc > li.active > a:focus
 {
-	 background: #31B0D5 none repeat scroll 0 0;
+	 background: #4fb8ff none repeat scroll 0 0;
 	border:1px solid #31B0D5;
 	border-bottom:none;
     color: #FFF;
+}
+
+ul.doc.reminder-doc > li.active > a, ul.doc.reminder-doc > li.active > a:hover, ul.doc.reminder-doc > li.active > a:focus
+{
+	background-color: #fff;
+    border-color: #4FB8FF #4FB8FF #fff;
+    border-style: solid;
+    border-width: 1px;
+    color: #428bca;
+    font-weight: bold;
 }
 
 .app
@@ -908,6 +918,7 @@ p.info-panel
 	text-align:center;
 }
 
+
 .faq
 {
 	margin-top:25px;
@@ -1032,6 +1043,51 @@ ul.record-inline .pull-left, .pull-right
 {
 	color:#777;
 }
+
+.record.record-left
+{
+	text-align:left;
+}	
+
+.border-box > .active
+{
+	border-bottom: none;
+    border-left: none;
+    border-right: none;
+	border-top:1px solid #4FB8FF;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    padding: 0px 15px;
+}
+
+.border-box .login-cancel-row21
+{
+	border-bottom: 1px solid #4FB8FF;
+    border-left: 1px solid #4FB8FF;
+    border-right: 1px solid #4FB8FF;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.border-center p
+{
+	padding:35px 0px 0px 0px;
+}
+
+
+/* Notification */
+
+.noti h1
+{
+	color: #4FB8FF;
+    margin: 0 0 14px;
+    padding: 0;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+/***** End *******/
 
 /***************************/
 
