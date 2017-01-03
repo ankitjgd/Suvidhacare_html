@@ -181,14 +181,6 @@ margin-top:80px;
  border-bottom: 1px solid gray;
  }
 
- .login-cancel-row21{
-  padding: 15px;
-  font-size: 17px;
-	font-family: 'Open Sans', sans-serif;
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-  border-bottom: 1px solid gray;
- }
 
  .login-cancel-row3{
    padding-top: 40px;
@@ -475,15 +467,13 @@ a{
   border: 2px solid #4B8C25;
   position: absolute;
   top: 55px;
-  right: 47px;
-  padding: 10px;
+  right: 45px;
 }
 .figbutton:hover{
   background-color: #4B8C25;
   border: 1px solid #fff;
   color: #fff;
   box-shadow: 0px 0px 1px 0px;
-  padding: 10px;
 }
 .demo-3 figure img {
     backface-visibility:hidden;
