@@ -1,6 +1,7 @@
 
  @media (min-width:768px) and (max-width:1200px) {
 
+
 .confirmed-image-text{
 text-align: center;
 }
@@ -9,7 +10,7 @@ text-align: center;
 }
 
 }
- @media (min-width:736px){
+ @media (max-width:736px){
 
 .appt-text2{
   text-align: center;
@@ -22,7 +23,7 @@ text-align: center;
   padding: 10px;
   font-size: 17px;
   border-right: 2px solid gray;
-  text-align:left;
+  text-align:center;
 }
 
 .login-cancel-row3{
@@ -86,8 +87,12 @@ text-align: center;
 }
 
 }
- @media (min-width:470px) and (max-width:750px) {
+ @media (max-width:480px){
    .login-cancel-row2{
+     border-bottom: 2px solid gray;
+     padding: 10px;
+     font-size: 17px;
+     border-right: 2px solid gray;
      text-align:center;
    }
    .top-menu .p-top-info-btn {
@@ -95,6 +100,12 @@ text-align: center;
     position: relative;
     width:37px;
     text-align:right;
+   }
+   .p-save-contain-row{
+    background-color:#fff;
+    padding: 10px 0px 0px 0px;
+    margin-left: 150px;
+    text-align: center;
    }
  }
 
@@ -118,28 +129,6 @@ text-align: center;
 }
 .cancel-book-again{
   text-align: center;
-}
-.current-upcomings{
-  border-top:1px solid gray;
-  border-left:1px solid gray;
-  border-right:1px solid gray;
-  padding-left: 36px;
-  padding-right: 34px;
-  font-size: 18px;
-  border-radius: 5px 5px 0px 0px;
-  position: absolute;
-  left: 10px;
-  margin-left: 0px;
-}
-.my-appoints{
-  border-top:1px solid gray;
-  border-right:1px solid gray;
-  border-left:1px solid gray;
-  font-size: 18px;
-  padding-left: 5px;
-  border-radius: 5px 5px 0px 0px;
-  position: absolute;
-  left: 10px;
 }
 /*----reschedule page----*/
 

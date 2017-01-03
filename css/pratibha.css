@@ -424,7 +424,7 @@ a{
   list-style-type: none;
 }
 
-.demo-3 {
+.flip-img {
     position:relative;
     width:150px;
     height:160px;
@@ -432,7 +432,7 @@ a{
     float:left;
     box-sizing: content-box;
 }
-.demo-3 figure {
+.flip-img figure {
     margin:0;
     padding:0;
     width:150px;
@@ -442,21 +442,21 @@ a{
     border: 1px solid #3D9FE2;
     border-radius: 5px;
 }
-.demo-3 figure:hover{
+.flip-img figure:hover{
     border: 1px solid #fff;
 }
-.demo-3 figure img {
+.flip-img figure img {
     display:block;
     position:relative;
     top: 5px;
     z-index:5;
 }
-.demo-3 figure figcaption {
+.flip-img figure figcaption {
     display:block;
     position:absolute;
     z-index:5;
 }
-.demo-3 figure h5 {
+.flip-img figure h5 {
     font-family: 'Open Sans', sans-serif;
     color:#000;
     backface-visibility:hidden;
@@ -464,13 +464,13 @@ a{
     text-align: center;
     font-weight: bold;
 }
-.demo-3 figure:hover h5,figure.hover h5 {
+.flip-img figure:hover h5,figure.hover h5 {
     transform:rotateY(190deg);
 }
-.demo-3 figure:hover p,figure.hover p {
+.flip-img figure:hover p,figure.hover p {
     transform:rotateY(190deg);
 }
-.demo-3 figure p {
+.flip-img figure p {
     font-family: 'Open Sans', sans-serif;
     font-size:15px;
     margin:0;
@@ -479,7 +479,7 @@ a{
     backface-visibility:hidden;
     transition:all .5s;
 }
-.demo-3 figure figcaption {
+.flip-img figure figcaption {
     top:0;
     left:0;
     width:100%;
@@ -506,13 +506,13 @@ a{
   color: #fff;
   box-shadow: 0px 0px 1px 0px;
 }
-.demo-3 figure img {
+.flip-img figure img {
     backface-visibility:hidden;
     transition:all .5s;
 }
-.demo-3 figure:hover img,figure.hover img {
+.flip-img figure:hover img,figure.hover img {
     transform:rotateY(190deg);
 }
-.demo-3 figure:hover figcaption,figure.hover figcaption {
+.flip-img figure:hover figcaption,figure.hover figcaption {
     transform:rotateY(0);
 }
