@@ -152,6 +152,40 @@ margin-top:80px;
 /*=========================
   login cancel
  ================= */
+ #topbar .btn-default1-p {
+ 	padding:5px 15px;
+ 	background-color:#3d9fe2;
+ 	color:#ffffff;
+ }
+ #topbar .btn-default1-p:hover {
+ 	background:#55aa1f;
+ 	-webkit-transition: background 0.3s ease-in-out;
+ 	-moz-transition: background 0.3s ease-in-out;
+ 	-ms-transition: background 0.3s ease-in-out;
+ 	-o-transition: background 0.3s ease-in-out;
+ 	transition: background 0.3s ease-in-out;
+ }
+ .top-menu .p-top-info-btn {
+ 	display:inline-block;
+ 	float:left;
+ 	margin-top:14px;
+ 	position:relative;
+ 	width:37px;
+ 	text-align:right
+ }
+ .top-menu .p-top-info-btn .button {
+ 	background-color:#a3c864;
+ 	border-radius:5px;
+ 	color:#ffffff;
+ 	height:32px;
+ 	width:38px;
+ 	text-align:center;
+ 	vertical-align:middle;
+ 	font-size:21px;
+ 	margin:0;
+ 	padding:0;
+ }
+
  .login-cancel-main{
   background-color:	#FFFFF;
 	font-family: 'Open Sans', sans-serif;
@@ -161,7 +195,6 @@ margin-top:80px;
 .login-cancel-date{
   margin-top: 0px;
 }
-
  .login-cancel-row1{
    border-bottom: 1px solid gray;
    text-align: center;
@@ -173,18 +206,18 @@ margin-top:80px;
  }
 
  .login-cancel-row2{
-   padding: 15px;
-   font-size: 17px;
+  padding: 15px;
+  font-size: 17px;
 	font-family: 'Open Sans', sans-serif;
   border-left: 1px solid gray;
- border-right: 1px solid gray;
- border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
  }
 
 
  .login-cancel-row3{
-   padding-top: 40px;
-   font-size: 17px;
+  padding-top: 40px;
+  font-size: 17px;
   border-right: 1px solid gray;
 	font-family: 'Open Sans', sans-serif;
   border-left: 1px solid gray;
@@ -246,12 +279,10 @@ margin-top:80px;
  ================= */
 .re-main-container{
   margin-top: 10px;
-
 }
 .re-main-row{
   margin-top: 10px;
   padding: 20px 0px 20px 0px;
-
 }
 .re-row2{
   font-size: 25px;
