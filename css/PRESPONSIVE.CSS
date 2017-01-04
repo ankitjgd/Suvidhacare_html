@@ -8,9 +8,9 @@ text-align: center;
 .login-cancel-row2{
   text-align:center;
 }
-
 }
- @media (max-width:736px){
+
+ @media (max-width:780px){
 
 .appt-text2{
   text-align: center;
@@ -86,8 +86,6 @@ text-align: center;
  text-align:right;
 }
 
-}
- @media (max-width:480px){
    .login-cancel-row2{
      border-bottom: 2px solid gray;
      padding: 10px;
@@ -106,6 +104,10 @@ text-align: center;
     padding: 10px 0px 0px 0px;
     margin-left: 150px;
     text-align: center;
+   }
+   .con-second-col{
+     padding-left: 50px;
+     border-left: 1px dotted #ffffff;
    }
  }
 
@@ -198,6 +200,14 @@ text-align: center;
  width:37px;
  text-align:right;
 }
+.con-second-col{
+  padding-left: 50px;
+  border-left: 1px dotted #ffffff;
+}
+.con-first-col{
+  margin-left: 30px;
+}
+
 }
 
 
