@@ -411,10 +411,6 @@ padding: 0;
   padding: 5px;
 }
 
-.my-main-row2:hover{
-  background-color: #fff;
-  color:black;
-}
 .my-pro-row-col2{
   padding: 10px 0px 15px 0px;
   font-size: 17px;
@@ -619,3 +615,18 @@ padding: 0;
 /*=========================
   Career Page
  =================*/
+ .car-container{
+   padding-top:30px;
+ }
+ .car-first-col{
+   font-size: 25px;
+ }
+ .car-f1-col{
+
+ }
+ .car-sec-col{
+   font-size: 25px;
+ }
+.car-form-col{
+  padding: 15px 0px 0px 0px;
+}
