@@ -618,11 +618,19 @@ padding: 0;
  .car-container{
    padding-top:30px;
  }
+ .car-first-row{
+   padding-left: 30px;
+ }
  .car-first-col{
    font-size: 25px;
+   padding: 30px 0px 30px 30px;
+   background-repeat: no-repeat;
+ }
+ .car-btn{
+   
  }
  .car-f1-col{
-
+   text-align: center;
  }
  .car-sec-col{
    font-size: 25px;
