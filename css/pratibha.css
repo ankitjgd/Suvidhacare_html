@@ -533,10 +533,17 @@ padding: 0;
   Contact Us
  =================*/
 .co-container{
-  padding:30px;
+  padding-top:30px;
 }
 .con-first-col{
-
+  padding-top: 20px;
+}
+.co-f-div{
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+  color: #3D9FE2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 .co-first-col{
   font-size: 25px;
@@ -544,28 +551,71 @@ padding: 0;
   color: #55AA1F;
 }
 .co-f-col{
-  font-size: 18px;
-  padding: 15px;
+  font-size: 15px;
+  padding: 5px 15px 15px 15px;
   color: black;
-
 }
+.co-f-col h2{
+  color: #55AA1F;
+}
+.co-f-col2{
+  font-size: 15px;
+  padding: 10px 15px 15px 15px;
+  color: black;
+  border-left: 1px dotted gray;
+}
+.co-f-col2 h2{
+  color: #55AA1F;
+}
+
 .co-f-col address i{
-  color:#55AA1F;
+  color:#3D9FE2;
   font-size: 25px;
-  margin-right: 5px;
-  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .co-sec-col{
   font-size: 25px;
   padding: 5px;
   color: #55AA1F;
+  font-family: 'Open Sans', sans-serif;
 }
 .con-second-col{
-  padding-left: 50px;
+  padding:20px 50px 20px 50px;
   border-left: 1px dotted black;
+  font-family: 'Open Sans', sans-serif;
 }
 .co-second-col{
   font-size: 17px;
-  padding: 5px;
+  padding: 15px 5px 5px 5px;
+  font-family: 'Open Sans', sans-serif;
 }
+.co-footer-col1{
+  font-size: 25px;
+  font-weight: bold;
+  color:#fff;
+}
+.co-footer-row1{
+  border-bottom: 1px solid Black;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+.co-footer-col2 address{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+
+}
+.co-footer-col2{
+  padding: 20px 50px 0px 50px;
+  font-size: 20px;
+}
+.co-footer-col2 address{
+  padding: 20px 0px 0px 0px;
+}
+
+/*=========================
+  Career Page
+ =================*/

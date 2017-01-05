@@ -109,6 +109,9 @@ text-align: center;
      padding-left: 50px;
      border-left: 1px dotted #ffffff;
    }
+   .co-f-col2{
+     border-left: 1px dotted #ffffff;
+   }
  }
 
  @media (max-width:480px){
@@ -206,6 +209,9 @@ text-align: center;
 }
 .con-first-col{
   margin-left: 30px;
+}
+.co-f-col2{
+  border-left: 1px dotted #ffffff;
 }
 
 }
